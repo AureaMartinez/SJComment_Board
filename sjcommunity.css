@@ -1,10 +1,16 @@
 
-
+p {
+	border-color:#3fe50c;
+	border-width:10px;
+	border-height:10px;
+	color:red;
+	font-family:sans-serif;
+}
 
 div.buttons1 {
 	border-color:#3fe50c;
 	border-width:10px;
-	border-style: solid;
+	border-style:solid;
 	height: 50px;
 	width:100px; 
 	color:red;
