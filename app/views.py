@@ -5,6 +5,6 @@ from flask import render_template
 
 @app.route('/')
 def index():
-	return ("This is our Social Justice App skeleton, people!")
+	return render_template("sj.html")
 
 
