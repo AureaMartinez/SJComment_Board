@@ -1,37 +1,26 @@
-
-
-
-div.buttons1 {
+#button_1 {background-color:blue;
 	border-color:#3fe50c;
-	border-width:10px;
-	border-style: solid;
-	height: 50px;
+	height:300px;
 	width:100px; 
-	color:red;
-}
+	color:red;}
 
-div.buttons2 {
-	border-color:#3fe50c;
-	border-width:10px;
-	border-style:solid;
-	height: 50px;
+#button_2 
+{height: 50px;
 	width:100px; 
-	color:red;
-}
-div.buttons3 {
-	border-color:#3fe50c;
+	color:red;}
+
+#button_3 
+{border-color:#3fe50c;
 	border-width:10px;
 	border-style:solid;
 	height: 50px;
 	width:100px; 
-	color:red;
-}
+	color:red;}
 
-div.buttons4 {
-	border-color:#3fe50c;
+#button_4 
+{border-color:#3fe50c;
 	border-width:10px;
 	border-style:solid;
 	height: 50px;
 	width:100px; 
-	color:red;
-}
+	color:red;}
