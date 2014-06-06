@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
 
-from app import app
 from flask import render_template
+from app import app  # Go get stuff we need from the app folder
+from models import Post, User
 
 @app.route('/')
 def index():
-	return render_template('index.html')
+	users = User.query.all()
+	posts = Post.query.all()
+	return render_template('index.html', users = users, posts = posts)
 
 @app.route('/first_issue')
 def second_view():
